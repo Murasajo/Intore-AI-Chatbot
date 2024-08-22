@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, jsonify
+import tensorflow as tf
 from keras.models import load_model
 import numpy as np
 import nltk
@@ -11,7 +12,7 @@ import random
 app = Flask(__name__)
 
 # Load the model, intents, and other necessary data
-model = load_model('chatbot_model.h5')
+model = tf.keras.models.load_model('chatbot_model.h5')
 intents = json.loads(open('intents.json').read())
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
