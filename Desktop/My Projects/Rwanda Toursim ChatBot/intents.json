@@ -1,0 +1,155 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Good day", "Greetings", "What's up", "How are you?", "Muraho", "Ni gute?", "Uri gute?"],
+            "responses": ["Muraho! Welcome to Rwanda. How can I assist you with your travel plans?", "Karibu Rwanda! Ready to explore our beautiful country?", "Hey there! How can I help you plan your Rwandan adventure?"],
+            "context": [""]
+        },
+        {
+            "tag": "farewell",
+            "patterns": ["Bye", "Goodbye", "See you later", "Farewell", "Talk to you later", "Catch you later", "Muraho"],
+            "responses": ["Muraho! Nkwifurije urugendo rwiza!",
+                "Imana igufashe mu rugendo rwawe!",
+                "Muraho! Wishing you a wonderful trip to Rwanda!",
+                "Bye! Remember to share your experiences with us.",
+                "Bye! Come back and explore more of Rwanda!"],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "I appreciate it", "Thanks a lot", "Thank you so much", "Murakoze"],
+            "responses": ["You're welcome! It's our pleasure to assist you.", "Murakoze cyane! Happy to help.", "Anytime! Don't hesitate to ask if you need more information."],
+            "context": [""]
+        },
+        {
+            "tag": "general_inquiry",
+            "patterns": ["Can you help me?", "I need assistance", "Can you assist me?", "I have a question", "I need help", "What can you do for me?", "How can you help?", "I'm looking for...", "I need information about...", "Can you help me with..."],
+            "responses": ["Sure, I'm ready to assist you. How can I help?", "Of course! Feel free to ask me anything. How can I help?", "I'm here to help you with your Rwanda travel plans. What do you need to know?"],
+            "context": [""]
+        },
+        {
+            "tag": "destination_information",
+            "patterns": ["Tell me about Kigali", "What can you tell me about Lake Kivu?", "Information about Nyungwe Forest", "Details about Akagera National Park", "Tell me about Volcanoes National Park"],
+            "responses": [
+                "Kigali is Rwanda's vibrant capital, offering a mix of culture, history, and modern amenities.",
+                "Lake Kivu is a stunning freshwater lake with breathtaking views, perfect for relaxation and water sports.",
+                "Nyungwe Forest National Park is a lush rainforest home to diverse wildlife and hiking trails.",
+                "Akagera National Park is a wildlife haven with savanna landscapes and abundant wildlife.",
+                "Volcanoes National Park is renowned for its mountain gorillas and offers incredible trekking experiences."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "attraction_information",
+            "patterns": ["What are the attractions in Kigali?", "Tell me about attractions in Lake Kivu", "What can I see in Nyungwe Forest?", "Attractions in Akagera National Park", "Attractions in Volcanoes National Park"],
+            "responses": [
+                "Kigali offers a rich cultural experience with the Kigali Genocide Memorial, the National Museum, and vibrant markets.",
+                "Lake Kivu is renowned for its stunning beaches, island hopping, and opportunities for water sports.",
+                "Nyungwe Forest National Park is home to chimpanzees, colobus monkeys, and offers breathtaking hiking trails.",
+                "Akagera National Park boasts diverse wildlife, including the big five animals such as the lions, leopards, rhinoceros, elephants, and African buffalos.",
+                "Volcanoes National Park is famous for gorilla trekking, but also offers stunning volcanic landscapes and birdwatching."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "hotel_booking",
+            "patterns": ["Book a hotel in Kigali", "Find a hotel in Lake Kivu", "I need a hotel in Nyungwe Forest", "Hotel booking in Akagera National Park", "Where can I stay in Volcanoes National Park?", "Recommend a hotel in Kigali"],
+            "responses": [
+                "Looking for a hotel in Kigali? I can help with that! Would you like me to find options based on your budget, star rating, or specific amenities?",
+                "Let's find the perfect hotel for your stay in Lake Kivu. Please tell me your preferred dates, budget, and any specific requirements."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "flight_booking",
+            "patterns": ["Book a flight to Kigali", "Find flights to Rwanda", "I need a flight to Kigali", "Flight booking to Rwanda"],
+            "responses": ["Let me help you find a flight to Kigali..."],
+            "context": [""]
+        },
+        {
+            "tag": "travel_package_information",
+            "patterns": ["Tell me about travel packages to Rwanda", "Do you have travel packages to Rwanda?", "Travel packages to Rwanda", "Packages to Rwanda"],
+            "responses": ["We have several travel packages to Rwanda. Here are some options..."],
+            "context": [""]
+        },
+        {
+            "tag": "restaurant_recommendations",
+            "patterns": ["Recommend a restaurant in Kigali", "Where to eat in Lake Kivu?", "Best restaurants in Nyungwe Forest", "Food places in Akagera National Park", "Best restaurants in Volcanoes National Park"],
+            "responses": ["Here are some great restaurants in Kigali..."],
+            "context": [""]
+        },
+        {
+            "tag": "local_events",
+            "patterns": ["Any events in Kigali?", "What's happening in Lake Kivu?", "Local events in Nyungwe Forest", "Events in Akagera National Park", "Events in Volcanoes National Park"],
+            "responses": ["Here are some upcoming events in Kigali..."],
+            "context": [""]
+        },
+        {
+            "tag": "tour_guide_booking",
+            "patterns": ["Book a tour guide in Kigali", "Find a tour guide in Lake Kivu", "I need a tour guide in Nyungwe Forest", "Tour guide booking in Akagera National Park"],
+            "responses": ["Let me help you find a tour guide in Kigali..."],
+            "context": [""]
+        },
+        {
+            "tag": "transportation_options",
+            "patterns": ["How to get around in Kigali?", "Transportation in Lake Kivu", "Getting around in Nyungwe Forest", "Transport options in Akagera National Park"],
+            "responses": ["Here are the transportation options in Kigali..."],
+            "context": [""]
+        },
+        {
+            "tag": "weather_updates",
+            "patterns": ["Weather in Kigali", "Weather forecast for Lake Kivu", "What's the weather like in Nyungwe Forest?", "Weather update for Akagera National Park"],
+            "responses": ["The weather in Kigali is..."],
+            "context": [""]
+        },
+        {
+            "tag": "cultural_information",
+            "patterns": ["Tell me about the culture in Kigali", "Culture of Rwanda", "Cultural information about Kigali", "What is the culture like in Rwanda?"],
+            "responses": ["The culture in Rwanda is rich and diverse. Here are some highlights..."],
+            "context": [""]
+        },
+        {
+            "tag": "travel_tips",
+            "patterns": ["Give me some travel tips for Rwanda", "Travel tips for Kigali", "Tips for traveling to Rwanda", "Advice for traveling to Rwanda"],
+            "responses": ["Here are some travel tips for Rwanda..."],
+            "context": [""]
+        },
+        {
+            "tag": "emergency_contacts",
+            "patterns": ["Emergency contacts in Rwanda", "Who to call in an emergency in Rwanda", "Emergency numbers in Rwanda", "Help in an emergency in Rwanda"],
+            "responses": ["Here are the emergency contacts in Rwanda..."],
+            "context": [""]
+        },
+        {
+            "tag": "language_assistance",
+            "patterns": ["Help with the language in Rwanda", "Language assistance in Rwanda", "Translate [phrase] in Kinyarwanda", "Language tips for Rwanda"],
+            "responses": ["Here are some basic language tips for Kinyarwanda..."],
+            "context": [""]
+        },
+        {
+            "tag": "currency_exchange",
+            "patterns": ["Currency exchange in Kigali", "Where to exchange money in Rwanda", "Exchange rate in Rwanda", "Money exchange in Kigali"],
+            "responses": ["Here's information on currency exchange in Kigali..."],
+            "context": [""]
+        },
+        {
+            "tag": "travel_insurance",
+            "patterns": ["Travel insurance for Rwanda", "Do I need travel insurance for Rwanda?", "Recommend travel insurance for Rwanda", "Insurance for traveling to Rwanda"],
+            "responses": ["It's always good to have travel insurance. Here are some options for Rwanda..."],
+            "context": [""]
+        },
+        {
+            "tag": "visa_information",
+            "patterns": ["Visa requirements for Rwanda", "Do I need a visa for Rwanda?", "Visa info for Rwanda", "How to get a visa for Rwanda"],
+            "responses": ["Here are the visa requirements for Rwanda..."],
+            "context": [""]
+        },
+        {
+            "tag": "health_information",
+            "patterns": ["Health tips for Rwanda", "Do I need vaccinations for Rwanda?", "Health info for Rwanda", "What health precautions should I take for Rwanda?"],
+            "responses": ["Here are some health tips for Rwanda..."],
+            "context": [""]
+        }
+    ]
+}
